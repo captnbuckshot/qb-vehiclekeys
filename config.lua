@@ -1,19 +1,19 @@
 Config = {}
-Config.HotwireChance = 0.5 -- Chance for successful hotwire or not
+Config.HotwireChance = 0.7 -- Chance for successful hotwire or not
 
-Config.RemoveLockpickNormal = 0.5 -- Chance to remove lockpick on fail
-Config.RemoveLockpickAdvanced = 0.2 -- Chance to remove advanced lockpick on fail
+Config.RemoveLockpickNormal = 0.25 -- Chance to remove lockpick on fail
+Config.RemoveLockpickAdvanced = 0.1 -- Chance to remove advanced lockpick on fail
 
 Config.CarjackingTime = 7500 -- How long it takes to carjack
 Config.DelayBetweenCarjackings = 10000 -- Time before you can carjack again
 
 Config.TimeBetweenHotwires = 5000
-Config.minHotwireTime = 20000
+Config.minHotwireTime = 15000
 Config.maxHotwireTime = 40000
 
 Config.AlertCooldown = 10000 -- 10 seconds
-Config.PoliceAlertChance = 1.75 -- Chance of alerting police during the day
-Config.PoliceNightAlertChance = 1.50 -- Chance of alerting police at night (times:01-06)
+Config.PoliceAlertChance = 0.9 -- Chance of alerting police during the day
+Config.PoliceNightAlertChance = 0.7 -- Chance of alerting police at night (times:01-06)
 
 Config.ImmuneVehicles = { -- These vehicles cannot be jacked
     'stockade'
@@ -54,7 +54,7 @@ Config.NoCarjackWeapons = {
 
 Config.CarjackChance = {
     ['2685387236'] = 0.0,   -- melee
-    ['416676503'] = 0.5,   -- handguns
+    ['416676503'] = 0.6,   -- handguns
     ['337201093'] = 0.75,   -- SMG
     ['860033945'] = 0.90,   -- shotgun
     ['970310034'] = 0.90,   -- assault
